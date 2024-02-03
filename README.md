@@ -5,6 +5,9 @@ a Python script that downloads and converts YouTube playlist videos into MP3 fil
 
 - The script can only access a public playlist
 
+  `pip install pytube`
+  `pip install moviepy`
+
 1. Parsing YouTube Playlist:
 
 - Use a Python library like pytube to parse the YouTube playlist.
