@@ -1,6 +1,7 @@
 # YTPlaylistConverter
 a Python script that downloads and converts YouTube playlist videos into MP3 files
 
+python main.py "<playlist url>" --download_path "./download" --mp3_path "./mp3"
 
 Parsing YouTube Playlist:
 
