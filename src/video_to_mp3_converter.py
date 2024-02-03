@@ -2,7 +2,7 @@ from moviepy.editor import VideoFileClip
 import os
 import logging
 
-def convert_to_mp3(video_path, mp3_path):
+def convert_to_mp3(video_path, mp3_path, progress_callback=None):
     """
     Converts a video file to an MP3 file.
 
@@ -17,6 +17,11 @@ def convert_to_mp3(video_path, mp3_path):
         with VideoFileClip(video_path) as video:
             video.audio.write_audiofile(mp3_path)
         logging.info(f"Conversion successful: {os.path.basename(mp3_path)}")
+
+        if progress_callback:
+            progress_callback(os.path.basename(mp3_path), "Converted")
     
     except Exception as e:
         logging.error(f"Error converting {video_path} to MP3: {e}")
+        if progress_callback:
+            progress_callback(os.path.basename(mp3_path), "Error")

@@ -5,6 +5,7 @@ from src.video_downloader import download_videos
 from src.video_to_mp3_converter import convert_to_mp3
 import os
 import logging
+import gui
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -41,7 +42,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    gui.app.mainloop()
 
 # playlist_url = 'https://www.youtube.com/playlist?list=PLu9tImInkmpNxzcOJjuQgzaiaDeXLxlyb'
 # download_path = './download'
