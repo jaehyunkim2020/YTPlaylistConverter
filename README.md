@@ -50,10 +50,10 @@ Contributions to the project are welcome! Please follow these steps to contribut
 - jaehyunkim2020@gmail.com
 - https://www.linkedin.com/in/jaehyunkim2020/
 
-## Limitations
+## Limitations (for now 🙂)
 
-The script cannot retrieve metadata to include artists name to the file name.
-The script cannot also clean the file name to get rid of unnecessary characters (e.g. if the video title has something like "(Official Audio)")
+- The script cannot retrieve metadata to include artists name to the file name.
+- The script cannot clean the file name to get rid of unnecessary characters (e.g. if the video title has something like "(Official Audio)")
 
 ## Future Features
 
