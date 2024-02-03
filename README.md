@@ -2,36 +2,55 @@
 a Python script that downloads and converts YouTube playlist videos into MP3 files
 
 python main.py "<playlist url>" --download_path "./download" --mp3_path "./mp3"
+0. Set up:
 
-Parsing YouTube Playlist:
+- The script can only access a public playlist
 
-Use a Python library like pytube to parse the YouTube playlist.
-Extract video URLs from the playlist.
-Downloading YouTube Videos:
+  `pip install pytube`
+  `pip install moviepy`
 
-For each URL, use pytube or a similar library to download the video.
-Ensure you handle exceptions and errors effectively.
-Converting Videos to MP3:
+1. Parsing YouTube Playlist:
 
-After downloading, use a library like moviepy to convert the video files to MP3.
-This will involve reading the video file and extracting the audio component.
-Saving MP3 Files:
+- Use a Python library like pytube to parse the YouTube playlist.
+- Extract video URLs from the playlist.
 
-Save the MP3 files to a specified directory on your computer.
-Consider adding features like custom file naming based on video titles.
-User Interface (Optional):
+2. Downloading YouTube Videos:
 
-For ease of use, you could create a simple command-line interface, or for a more advanced project, a GUI using a library like tkinter.
-Error Handling and Logging:
+- For each URL, use pytube or a similar library to download the video.
+- Ensure you handle exceptions and errors effectively.
 
-Implement robust error handling to manage common issues like network errors, missing videos, etc.
-Include logging for tracking downloads and errors.
-Configurations and Customizations:
+3. Converting Videos to MP3:
 
-Allow users to customize settings like download folder, audio quality, etc.
-Testing:
+- After downloading, use a library like moviepy to convert the video files to MP3.
+- This will involve reading the video file and extracting the audio component.
 
-Thoroughly test your script with different playlists and edge cases.
-Documentation:
+4. Saving MP3 Files:
 
-Document your code and provide instructions on how to install and use the script.
+- Save the MP3 files to a specified directory on your computer.
+- Consider adding features like custom file naming based on video titles.
+
+5. User Interface:
+
+- For ease of use, you could create a simple command-line interface, or for a more advanced project, a GUI using a library like tkinter.
+
+6. Error Handling and Logging:
+
+- Implement robust error handling to manage common issues like network errors, missing videos, etc.
+- Include logging for tracking downloads and errors.
+
+7. Configurations and Customizations:
+
+- Allow users to customize settings like download folder, audio quality, etc.
+
+8. Testing:
+
+- Thoroughly test your script with different playlists and edge cases.
+
+9. Documentation:
+
+- Document your code and provide instructions on how to install and use the script.
+
+## Limitations
+
+The script cannot retrieve metadata to include artists name to the file name.
+The script cannot also clean the file name to get rid of unnecessary characters (e.g. if the video title has something like "(Official Audio)")
