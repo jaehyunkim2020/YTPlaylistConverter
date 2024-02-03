@@ -48,3 +48,8 @@ a Python script that downloads and converts YouTube playlist videos into MP3 fil
 9. Documentation:
 
 - Document your code and provide instructions on how to install and use the script.
+
+## Limitations
+
+The script cannot retrieve metadata to include artists name to the file name.
+The script cannot also clean the file name to get rid of unnecessary characters (e.g. if the video title has something like "(Official Audio)")
