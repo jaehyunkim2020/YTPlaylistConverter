@@ -47,8 +47,8 @@ Contributions to the project are welcome! Please follow these steps to contribut
 
 ## Contact
 
-jaehyunkim2020@gmail.com
-https://www.linkedin.com/in/jaehyunkim2020/
+- jaehyunkim2020@gmail.com
+- https://www.linkedin.com/in/jaehyunkim2020/
 
 ## Limitations
 
