@@ -4,7 +4,9 @@ a Python script that downloads and converts YouTube playlist videos into MP3 fil
 
 ## Introduction
 
-This script allows users to download videos from a YouTube playlist and convert them into MP3 format. It's designed to be easy to use, providing a command-line interface for efficient processing.
+This script allows users to download videos from a YouTube playlist and convert them into MP3 format. It's designed to be easy to use, providing both a command-line interface and a graphical user interface (GUI).
+
+![image](https://github.com/jaehyunkim2020/YTPlaylistConverter/assets/77366570/9a76a851-e13b-4370-bb09-e5fa4096acb0)
 
 I have always enjoyed having the music files directly in my phone instead of using services like YouTube Music or Spotify due to the ads and subscription fees which was something I didn't want to pay for as a broke college student.
 
