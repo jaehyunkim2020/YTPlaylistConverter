@@ -63,4 +63,5 @@ Contributions to the project are welcome! Please follow these steps to contribut
 ## Future Features
 
 ~~1. GUI to make the program user-friendly to those who aren't familiar with using the command line~~
+
 2. Also script Spotify playlists
